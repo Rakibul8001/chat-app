@@ -1,0 +1,35 @@
+{
+  "name": "nodechatapp",
+  "version": "1.0.0",
+  "description": "Chat Application",
+  "main": "app.js",
+  "scripts": {
+    "start": "NODE_ENV=development nodemon app.js",
+    "prod": "NODE_ENV=production node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Rakibul8001/chat-app.git"
+  },
+  "keywords": [
+    "chat-app"
+  ],
+  "author": "Rakibul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rakibul8001/chat-app/issues"
+  },
+  "homepage": "https://github.com/Rakibul8001/chat-app#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.3",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.1",
+    "multer": "^1.4.5-lts.1"
+  }
+}
